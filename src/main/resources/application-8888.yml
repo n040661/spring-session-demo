@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring: 
+  redis: 
+    dbIndex: 1
+    hostName: 192.168.58.140
+    #password: nmamtf
+    port: 6379
+    timeout: 0
+    poolConfig: 
+       maxIdle: 10
+       minIdle: 0
+       maxActive: 10
+       maxWait: -1
